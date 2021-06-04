@@ -1,6 +1,8 @@
 public class Main {
     public static void main (String[] args){
 
+        char[] uniskaChar = {'U','N','I','S','K','A'};
+        String uniskaString = new String(uniskaChar);
         String namaDepan = "Evi";
         String namaBelakang = "Normulia";
         int usia = 20;
@@ -10,5 +12,6 @@ public class Main {
         boolean cantik = true;
 
         System.out.println(namaDepan + namaBelakang);
+        System.out.println(uniskaString);
     }
 }
